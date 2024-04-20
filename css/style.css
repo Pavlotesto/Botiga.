@@ -44,3 +44,157 @@ ul {
 li {
 	margin-right: 20px;
 }
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #d4af37;
+}
+
+main {
+	max-width: 800px;
+	margin: 40px auto;
+	padding: 0 20px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+.centralizado {
+	margin-top: 100px; 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Nunito', sans-serif;
+}
+p {
+	font-size: 1;
+	text-align: justify;
+}
+.galeria {
+	display: inline-block;
+	margin: 20px auto;
+}
+
+.galeria a {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.galeria img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border: 2px solid #333;
+	border-radius: 50%;
+	transition: transform 0.3s ease-in-out;
+}
+
+.galeria img:hover {
+	transform: scale(1.1);
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h3 {
+	text-align: center;
+}
+img {
+	width: 200px;
+	height: 200px;
+  }
+.camisetas {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
+  
+.camiseta {
+	margin: 20px;
+	max-width: 300px;
+  }
+  
+.camiseta-imagen {
+	max-width: 100%;
+	height: auto;
+  }
+  
+nav li {
+    margin-left: 1rem;
+}
+
+#lang-selector {
+    display: flex;
+    margin-left: 1rem;
+}
+
+#lang-selector select {
+    margin-left: 0.5rem;
+}
+
+ul.Camisetas {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 20px;
+}
+
+ul.camiseta li {
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+ul.camiseta li img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin-bottom: 10px;
+}
+
+ul.camiseta li h3 {
+	font-size: 1.2rem;
+	margin: 0;
+}
+
+ul.camiseta li p {
+	color: #666;
+	font-size: 0.9rem;
+	margin: 0;
+	margin-top: 10px;
+}
+.camiseta-container {
+	display: flex;
+	flex-direction: row;
+  }
+  
+  .camiseta-imagen-grande {
+	width: 60%;
+	height: auto;
+	margin-right: 20px;
+  }
+  .precio {
+	font-size: 24px;
+	font-weight: bold;
+  }
+  
+  .camiseta-description {
+	width: 40%;
+  }
