@@ -133,8 +133,7 @@ img {
   }
   
 .camiseta-imagen {
-	max-width: 100%;
-	height: auto;
+	max-width: 50%;
   }
   
 nav li {
@@ -198,3 +197,72 @@ ul.camiseta li p {
   .camiseta-description {
 	width: 40%;
   }
+  @media only screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    .idiomas-container {
+        float: none;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    nav ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    nav li {
+        margin: 0.5rem;
+    }
+
+    main {
+        padding: 0 10px;
+    }
+
+    .galeria {
+        text-align: center;
+    }
+
+    .galeria a {
+        display: block;
+        margin: 10px auto;
+    }
+
+    .galeria img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .camisetas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .camiseta {
+        margin: 10px 0;
+        max-width: 100%;
+    }
+
+    .camiseta-container {
+        flex-direction: column;
+    }
+
+    .camiseta-imagen-grande {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .camiseta-description {
+        width: 100%;
+    }
+
+    .precio {
+        font-size: 18px;
+    }
+}
